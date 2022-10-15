@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_db_api",
+  "version": "1.0.0",
+  "description": "nodejs_db_api",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "nodejs_db_api"
+  ],
+  "author": "Harlam Alvarado",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.2.0",
+    "nodemon": "^2.0.20"
+  }
+}
