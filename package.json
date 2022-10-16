@@ -4,7 +4,8 @@
   "description": "nodejs_db_api",
   "main": "server.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "start": "nodemon server"
   },
   "keywords": [
     "nodejs_db_api"
@@ -14,6 +15,7 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "mongoose": "^6.6.5",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
